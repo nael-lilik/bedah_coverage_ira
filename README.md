@@ -2,6 +2,10 @@
 
 Aplikasi Node.js tanpa dependency tambahan untuk mengecek coverage dari dua API yang digunakan di `cek.php` dan menampilkan BTS pada peta Leaflet.
 
+## Screenshot
+
+![Tampilan peta Coverage & BTS](<./Browser Screenshot.png>)
+
 ## Menjalankan
 
 Gunakan Node.js 18 atau lebih baru:
