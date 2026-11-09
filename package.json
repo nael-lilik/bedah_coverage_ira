@@ -1,0 +1,9 @@
+{
+  "name": "leaflet-bts-coverage-map",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-screen Leaflet map for checking coverage and locating BTS",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
