@@ -104,6 +104,7 @@ function addBtsMarkers(entries) {
       weight: 1.5,
       fillColor: "#42b8a7",
       fillOpacity: 0.1,
+      interactive: false,
     })
       .bindPopup(`<strong>${escapeHtml(name)}</strong><br>Radius coverage: 1 km`)
       .addTo(btsLayer);
@@ -409,6 +410,7 @@ async function checkCoverage(latitude, longitude, location, requestId) {
     weight: 1.5,
     fillColor: "#f1a43b",
     fillOpacity: 0.12,
+    interactive: false,
   })
     .bindPopup("Radius dari lokasi yang dipilih: 1 km")
     .addTo(selectedLocationLayer);
